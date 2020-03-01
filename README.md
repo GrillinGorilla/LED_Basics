@@ -22,4 +22,4 @@ https://files.husarion.com/arduino/package_esp32_husarnet_index.json
 
 #### Board Manager
 - esp32 by Espressif Systems
-- esp32 husarnet
+- esp32-husarnet
