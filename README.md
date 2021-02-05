@@ -6,6 +6,7 @@
 [How to determine which power supply I need](https://www.waveformlighting.com/home-residential/how-to-choose-a-power-supply-for-your-led-strip-project)
 
 [RGB Color Codes for Daylight](http://planetpixelemporium.com/tutorialpages/light.html)
+
 [RGB Color Codes for all Colors](https://www.w3schools.com/colors/colors_picker.asp)
 
 # Arduino IDE Set-up
