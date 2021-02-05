@@ -36,18 +36,28 @@ void setup() {
 
 void loop() {
   // Some example procedures showing how to display to the pixels:
-  colorWipe(strip.Color(255, 0, 0), 1); // Red
-  colorWipe(strip.Color(0, 255, 0), 1); // Green
-  colorWipe(strip.Color(0, 0, 255), 1); // Blue
-  colorWipe(strip.Color(0, 0, 0, 255), 1); // White RGBW
+  //colorWipe(strip.Color(255,   0,   0,   0),  1); // Red
+  //colorWipe(strip.Color(255, 165,   0,   0),  1); // Orange
+  //colorWipe(strip.Color(255, 255,   0,   0),  1); // Yellow
+  //colorWipe(strip.Color(  0, 255,   0,   0),  1); // Green
+  //colorWipe(strip.Color(  0,   0, 255,   0),  1); // Blue
+  //colorWipe(strip.Color( 75,   0, 130,   0),  1); // Indigo
+  //colorWipe(strip.Color(238, 130, 238,   0),  1); // Violet
+  //colorWipe(strip.Color(255, 192, 203,   0),  1); // Pink
+  colorWipe(strip.Color(  0,   0,   0, 255), 1); // White RGBW Pure White
+  colorWipe(strip.Color(255, 255, 255,   0), 1); // RGB White
+  //colorWipe(strip.Color(255, 214, 170,   0), 1); // Warm White 2850K
+  //colorWipe(strip.Color(255, 250, 244,   0), 1); // Daylight White 5200K
+  //colorWipe(strip.Color(201, 226, 255,   0), 1); // Cool White 7000K
+  //colorWipe(strip.Color(167,   0, 255,   0), 1); // Black Light
   // Send a theater pixel chase in...
-  theaterChase(strip.Color(127, 127, 127), 50); // White
-  theaterChase(strip.Color(127, 0, 0), 50); // Red
-  theaterChase(strip.Color(0, 0, 127), 50); // Blue
+  //theaterChase(strip.Color(127, 127, 127), 50); // White
+  //theaterChase(strip.Color(127, 0, 0), 50); // Red
+  //heaterChase(strip.Color(0, 0, 127), 50); // Blue
 
-  rainbow(1); //blippy
-  rainbowCycle(5);
-  theaterChaseRainbow(25);
+  //rainbow(1); 
+  //rainbowCycle(5);
+  //theaterChaseRainbow(25);
 }
 
 // Fill the dots one after the other with a color
